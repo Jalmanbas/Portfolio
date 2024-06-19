@@ -1,0 +1,164 @@
+header{
+    margin: 0;
+    height: 33vh;
+   
+
+}
+body{
+    margin: 0;
+
+}
+nav{
+    background-color: #a3cef1;
+    opacity: 60%;
+    height: 1.5em;
+    align-content: center;
+}
+header nav ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+
+}
+.titulito{
+    color: white;
+    font-size: larger;
+    background-color: #274c77;
+    width: fit-content;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bc{
+
+        background-color: #274c77;
+        border-radius: 10px;
+        height: 1em;
+        width: max-content;
+        color: white;
+}
+.cinci{
+    position: relative;
+    justify-content: center;
+    
+}
+h2{
+    color: white;
+}
+h3{
+    text-align: center;
+}
+/*main section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}*/
+
+
+main{
+
+    padding: 3%;
+    margin: auto;
+   
+    box-shadow: 5px 5px 5px 5px #274c77;
+}
+
+
+
+.tit {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.generalindex{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.generalindex  article{
+
+    width: 300px;
+   margin: 2%;
+   padding: 1%;
+   justify-content: center;
+   text-align: center;
+   background-color: #274c77;
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px ;
+
+}
+
+figure{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parrafito{
+    width: 100%;
+    text-align: justify;
+}
+
+.fondoabout{
+    background-image: url(img/fondoabout.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 33vh;
+}
+
+.fondoindex{
+    background-image: url(img/fondoindx.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 33vh;    
+    background-position: center;
+   
+
+}
+
+.aboutme{
+    padding: 2%;
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 100%;
+}
+
+.aboutme article{
+
+    width: 300px;
+   margin: 2%;
+   padding: 1%;
+   justify-content: center;
+   text-align: center;
+   background-color: #274c77;
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px ;
+}
+main section article{
+    width: 350px;
+}
+
+footer{
+
+height: 10vh;
+background-color: #a3cef1;
+
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 5px 5px 5px 5px #274c77;
+background-image: url(img/loguito.jfif);
+background-size: contain;
+background-repeat: no-repeat;
+background-position-x: right;
+background-position-y: bottom;
+}
